@@ -405,6 +405,7 @@ color: var(--dark-desaturated-cyan);
 
 .footer-brand svg {
   transform: scale(1.3);
+ 
 }
 
 .footer-nav {
@@ -420,19 +421,20 @@ margin-bottom: 90px;
   transition: var(--default-transtion);
 }
 
-.social-links {
+.social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
 }
 
-.footer-nav :hover
- {
+.footer-nav :hover {
   color: var(--white);
 }
 
-
+.footer-nav :hover {
+  color: var(--white);
+}
 
 
 
