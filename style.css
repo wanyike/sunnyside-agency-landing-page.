@@ -427,10 +427,15 @@ margin-bottom: 90px;
   gap: 25px;
 }
 
-.footer-nav :hover,
+.footer-nav :hover
+ {
+  color: var(--white);
+}
+
 .social-link :hover{
   color: var(--white);
 }
+
 
 
 /* responsive */
