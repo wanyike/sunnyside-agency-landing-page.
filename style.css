@@ -433,13 +433,10 @@ margin-bottom: 90px;
   color: var(--white);
 }
 
-/* .social-links a:hover {
-  color: #e0f0ea;
-} */
 
-.social-links a:hover {
+.social-links a:hover  svg{
   transform: scale(1.1); 
-  background-color:  var(--white);/* Slightly enlarges on hover */
+ background-color:  var(--white);
 }
 
 
