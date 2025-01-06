@@ -421,19 +421,26 @@ margin-bottom: 90px;
   transition: var(--default-transtion);
 }
 
-.social-links {
+.social-links{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
 }
 
-.footer-nav :hover,
-.social-links :hover {
+.footer-nav :hover
+{
   color: var(--white);
 }
 
+/* .social-links a:hover {
+  color: #e0f0ea;
+} */
 
+.social-links a:hover {
+  transform: scale(1.1); 
+  background-color:  var(--white);/* Slightly enlarges on hover */
+}
 
 
 /* responsive */
