@@ -434,14 +434,12 @@ margin-bottom: 90px;
 }
 
 
-.social-links a:hover  svg{
-  transform: scale(1.1); 
- background-color:  var(--white);
-}
-
 a:hover svg path {
   fill: white;
+  
 }
+
+
 
 /* responsive */
 
