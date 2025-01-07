@@ -439,6 +439,9 @@ margin-bottom: 90px;
  background-color:  var(--white);
 }
 
+a:hover svg path {
+  fill: white;
+}
 
 /* responsive */
 
