@@ -394,8 +394,9 @@ color: var(--dark-desaturated-cyan);
 }
 
 .footer{
-  background: #83f7dc;
+  background: hsl(168, 64%, 76%);
   padding: 70px 30px;
+  
 }
 
 .footer-brand{
@@ -425,7 +426,7 @@ margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 35px;
 }
 
 .footer-nav :hover
