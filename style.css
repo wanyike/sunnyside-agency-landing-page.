@@ -131,8 +131,8 @@ pointer-events: all;
   color: var(--olive-drab-7);
   font-size: 20px;
   text-transform: uppercase;
-  padding: 18px 29px;
-  border-radius: 60px;
+  padding: 10px 20px;
+  border-radius: 50px;
 }
 
 .nav-toggle-btn {
@@ -412,8 +412,8 @@ color: var(--dark-desaturated-cyan);
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 55px;
-margin-bottom: 90px;
+gap: 50px;
+margin-bottom: 50px;
 }
 
 .footer-nav a {
