@@ -68,10 +68,11 @@ h4,
 
 header {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   z-index: 20;
+
 }
 
 .navbar {
@@ -193,8 +194,9 @@ display: none;
     color: var(--white);
     font-size: 40px;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
     margin-bottom: 40px;
+    
   }
 
   .arrow-down {
@@ -226,7 +228,7 @@ display: none;
   }
 
   .about-content {
-    padding: 60px 25px;
+    padding: 30px 20px;
     text-align: center;
     max-width: 550px;
     margin: auto;
@@ -234,7 +236,7 @@ display: none;
 
   .about-h2 {
     color: var(--very-dark-desaturated-blue);
-    font-size: 32px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
   .about-p{
